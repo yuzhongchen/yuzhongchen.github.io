@@ -14,7 +14,7 @@ My research interests lie in robot perception and mobile applications, especiall
 
 I am honored to be advised by [Professor Chen Feng](https://engineering.nyu.edu/faculty/chen-feng) at [AI4CE](https://ai4ce.github.io) starting from September 2024.
 
-Please download my resume using this [link](files/CV.pdf)
+Please download my resume using this [link](files/cv.pdf)
 
 # NEWS
 ## Paper accepted by ICRA2024, May, 2024
