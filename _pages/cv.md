@@ -7,4 +7,5 @@ redirect_from:
   - /resume
 ---
 
-[Download PDF](assets/files/yourfile.pdf)
+<iframe src="files/CV.pdf" width="100%" height="600px">
+</iframe>
