@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am currently a doctorate student in Computer Science at [Tandon School of Engineering](https://engineering.nyu.edu), [New York University](https://www.nyu.edu) starting from September, 2024.
+I am currently a PhD student in Computer Science at [Tandon School of Engineering](https://engineering.nyu.edu), [New York University](https://www.nyu.edu) starting from September, 2024.
 
 My research interests lie in robot perception and mobile applications, especially on their applications. Hoping to develop robots that can reduce human workloads.
 
