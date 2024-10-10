@@ -8,9 +8,9 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Mr. Yuzhong Chen"
+title                    : "Yuzhong Chen"
 title_separator          : "-"
-name                     : &name "Mr. Yuzhong Chen"
+name                     : &name "Yuzhong Chen"
 description              : &description "Doctorate student at the New York University"
 url                      : https://yuzhongchen.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -22,7 +22,7 @@ repository               : "yuzhongchen/yuzhongchen.github.io"
 author:
   # Biographic information
   avatar           : "profile.jpg"
-  name             : "Mr. Yuzhong Chen"
+  name             : "Yuzhong Chen"
   pronouns         : "he/his"  
   bio              : "Doctorate student in Computer Science at the New York University"
   location         : "Brooklyn, New York"
