@@ -14,11 +14,16 @@ My research interests lie in robot perception and mobile applications, especiall
 
 I am honored to be advised by [Professor Chen Feng](https://engineering.nyu.edu/faculty/chen-feng) at [AI4CE](https://ai4ce.github.io) starting from September 2024.
 
+I am also an Affiliated Researcher at the R&D Autonomous Robotics Center, [General Motors](https://www.gm.com), starting from July 2025.
+
 Please download my resume using this [link](files/cv.pdf)
 
 # NEWS
 ## Paper accepted by RA-L, August, 2026
 Our paper ["Vision-Force Admittance Learning for Peg Insertion into a Movable Hole"](/publication/2026-vfal-peg-insertion) is accepted by the IEEE Robotics and Automation Letters (RA-L). Project page coming soon at [ai4ce.github.io/VFAL](https://ai4ce.github.io/VFAL/).
+
+## Affiliated Researcher at General Motors, July, 2025
+I joined the R&D Autonomous Robotics Center at General Motors as an Affiliated Researcher, working on precise robotic manipulation in dynamic environments.
 
 ## Paper accepted by ICRA2024, May, 2024
 Our paper ["EgoPAT3Dv2: Predicting 3D Action Target from 2D Egocentric Vision for Human-Robot Interaction"](https://arxiv.org/pdf/2403.05046) is accepted by the International Conference on Robotics and Automations.
