@@ -4,7 +4,7 @@ collection: publications
 category: manuscripts
 permalink: /publication/2026-vfal-peg-insertion
 excerpt: 'A Vision-Force Admittance Learning (VFAL) framework that fuses asynchronous visual feedback with a high-frequency force-based model for precise peg-in-hole insertion in dynamic environments.'
-date: 2026-01-01
+date: 2026-08-01
 authors: '**Yuzhong Chen**<sup>1</sup>, [Yongqing Liang](https://lyq.me/scholar)<sup>1</sup>, Yunzhi Xu<sup>2</sup>, [Irving Fang](https://irvingf7.github.io/)<sup>1</sup>, Chase Kidder<sup>2</sup>, Hui-ping Wang<sup>2</sup>, Raihan Haque<sup>2</sup>, Yubiao Zhang<sup>2</sup>, [Chen Feng](https://scholar.google.com/citations?user=YeG8ZM0AAAAJ)<sup>1&#9993;</sup>'
 note: '<sup>1</sup>New York University &nbsp;&nbsp; <sup>2</sup>General Motors &nbsp;&nbsp; (&#9993;: corresponding author)'
 venue: 'IEEE Robotics and Automation Letters (RA-L)'
