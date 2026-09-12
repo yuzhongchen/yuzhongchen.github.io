@@ -1,0 +1,110 @@
+/* ==========================================================================
+   PUBLICATIONS (scholar-style layout)
+   ========================================================================== */
+
+.pub__legend {
+  font-size: $type-size-6;
+  color: mix(#fff, $text-color, 35%);
+  margin: 0 0 1.5em;
+}
+
+.pub__section {
+  margin-bottom: 2.5em;
+}
+
+.pub__section-title {
+  margin: 1.2em 0 0.8em;
+  padding-bottom: 0.3em;
+  border-bottom: 1px solid $border-color;
+  font-size: $type-size-4;
+}
+
+.pub__item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.25em;
+  padding: 1em 0;
+  border-bottom: 1px solid mix(#fff, $border-color, 55%);
+
+  &:last-child {
+    border-bottom: 0;
+  }
+
+  @media screen and (max-width: 600px) {
+    flex-direction: column;
+  }
+}
+
+.pub__teaser {
+  flex: 0 0 240px;
+  max-width: 240px;
+
+  img {
+    width: 100%;
+    height: auto;
+    border-radius: $border-radius;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+  }
+
+  @media screen and (max-width: 600px) {
+    flex: 1 1 auto;
+    max-width: 100%;
+  }
+}
+
+.pub__body {
+  flex: 1 1 auto;
+
+  p {
+    margin: 0 0 0.35em;
+  }
+}
+
+.pub__title {
+  margin: 0 0 0.35em;
+  font-size: $type-size-5;
+  line-height: 1.35;
+}
+
+.pub__authors {
+  font-size: $type-size-6;
+}
+
+.pub__venue {
+  font-size: $type-size-6;
+  font-style: italic;
+  color: mix(#fff, $text-color, 25%);
+}
+
+.pub__note,
+.pub__award {
+  font-size: $type-size-6;
+  color: mix(#fff, $text-color, 25%);
+}
+
+.pub__award {
+  color: $warning-color;
+}
+
+.pub__highlight {
+  font-size: $type-size-6;
+}
+
+.pub__links {
+  margin-top: 0.5em !important;
+
+  a {
+    display: inline-block;
+    margin: 0.2em 0.4em 0.2em 0;
+    padding: 0.15em 0.6em;
+    border: 1px solid $border-color;
+    border-radius: $border-radius;
+    font-size: $type-size-7;
+    text-decoration: none;
+
+    &:hover {
+      background-color: $lighter-gray;
+      text-decoration: none;
+    }
+  }
+}

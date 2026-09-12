@@ -1,0 +1,74 @@
+{% include base_path %}
+
+{% comment %}
+  Publication entry rendered in a "scholar" style: teaser image on the left,
+  title / authors / venue / highlight / links on the right.
+{% endcomment %}
+
+{% if post.header.teaser %}
+  {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
+{% else %}
+  {% assign teaser = site.teaser %}
+{% endif %}
+
+<div class="pub__item">
+  {% if teaser %}
+    {% if post.projecturl %}
+      {% assign teaser_link = post.projecturl %}
+    {% elsif post.paperurl %}
+      {% assign teaser_link = post.paperurl %}
+    {% else %}
+      {% assign teaser_link = post.url | prepend: base_path %}
+    {% endif %}
+    <div class="pub__teaser">
+      <a href="{{ teaser_link }}">
+        <img src="{% if teaser contains '://' %}{{ teaser }}{% else %}{{ teaser | prepend: '/images/' | prepend: base_path }}{% endif %}" alt="{{ post.title | escape }}">
+      </a>
+    </div>
+  {% endif %}
+
+  <div class="pub__body">
+    <h3 class="pub__title">
+      {% if post.projecturl %}
+        <a href="{{ post.projecturl }}">{{ post.title }}</a>
+      {% elsif post.paperurl %}
+        <a href="{{ post.paperurl }}">{{ post.title }}</a>
+      {% else %}
+        <a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a>
+      {% endif %}
+    </h3>
+
+    {% if post.authors %}
+      <p class="pub__authors">{{ post.authors | markdownify | remove: "<p>" | remove: "</p>" }}</p>
+    {% endif %}
+
+    {% if post.venue %}
+      <p class="pub__venue">{{ post.venue }}{% if post.date %}, {{ post.date | date: "%Y" }}{% endif %}</p>
+    {% endif %}
+
+    {% if post.note %}
+      <p class="pub__note">{{ post.note }}</p>
+    {% endif %}
+
+    {% if post.award %}
+      <p class="pub__award">{{ post.award }}</p>
+    {% endif %}
+
+    {% if post.highlight %}
+      <p class="pub__highlight"><strong>Highlight:</strong> {{ post.highlight }}</p>
+    {% elsif post.excerpt %}
+      <p class="pub__highlight">{{ post.excerpt | markdownify | remove: "<p>" | remove: "</p>" }}</p>
+    {% endif %}
+
+    <p class="pub__links">
+      {% if post.paperurl %}<a href="{{ post.paperurl }}">Paper</a>{% endif %}
+      {% if post.arxivurl %}<a href="{{ post.arxivurl }}">ArXiv</a>{% endif %}
+      {% if post.codeurl %}<a href="{{ post.codeurl }}">Code</a>{% endif %}
+      {% if post.projecturl %}<a href="{{ post.projecturl }}">Project</a>{% endif %}
+      {% if post.slidesurl %}<a href="{{ post.slidesurl }}">Slides</a>{% endif %}
+      {% if post.videourl %}<a href="{{ post.videourl }}">Video</a>{% endif %}
+      {% if post.dataurl %}<a href="{{ post.dataurl }}">Dataset</a>{% endif %}
+      <a href="{{ base_path }}{{ post.url }}">Details</a>
+    </p>
+  </div>
+</div>
