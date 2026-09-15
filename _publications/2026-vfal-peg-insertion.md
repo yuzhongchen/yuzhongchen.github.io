@@ -13,7 +13,7 @@ header:
   teaser: 'vfal-teaser.gif'
 paperurl: '/files/VFAL_RAL2026.pdf'
 projecturl: 'https://ai4ce.github.io/VFAL/'
-arxivurl: '#'   # TODO: replace with the real arXiv link once the preprint is posted
+arxivurl: 'https://arxiv.org/abs/2609.14133'
 # codeurl: 'https://github.com/ai4ce/VFAL'      # TODO: uncomment once the code is released
 citation: 'Chen, Y., Liang, Y., Xu, Y., Fang, I., Kidder, C., Wang, H.-P., Haque, R., Zhang, Y., & Feng, C. (2026). Vision-Force Admittance Learning for Peg Insertion into a Movable Hole. IEEE Robotics and Automation Letters (RA-L).'
 ---
